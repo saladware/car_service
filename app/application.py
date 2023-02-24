@@ -3,7 +3,7 @@ from fastapi.responses import JSONResponse
 
 from .exceptions import ItemNotFound, ItemAlredyExists
 from .users.router import users
-from .cars.router import cars
+from .cars.router import cars, manufacturers
 
 
 app = FastAPI(
@@ -29,3 +29,4 @@ async def on_alerady_exists(request: Request, exc: ItemAlredyExists):
 
 app.include_router(users)
 app.include_router(cars)
+app.include_router(manufacturers)

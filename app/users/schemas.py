@@ -25,7 +25,6 @@ class User(BaseModel):
     gender: Gender
     birthday: date
     created_at: datetime
-    updated_at: datetime
 
     class Config:
         orm_mode = True
