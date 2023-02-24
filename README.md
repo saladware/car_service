@@ -20,6 +20,7 @@ The application is configured using the following environment variables:
 | `APP_PORT`    | application port in docker network and localhost                         | like `8080`                                                                    |
 | `APP_HOST`    | application host in docker network                                       | recommend `0.0.0.0`                                                            | 
 | `SECRET_K`    | secret key of your app. will be used as a token generator in the future  | copy from `python -c "import secrets; print(secrets.token_hex(16)) and paste"` |
+
 You can define all this environment variables or use .env file. dotenv file example is already in `/.env.example`. You can just edit and rename it. 
 
 ## How to run
