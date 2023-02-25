@@ -7,6 +7,10 @@ Some very cool car api service developed during rosatom labs &lt;3
   * [How to run](#how-to-run)
 <!-- TOC -->
 
+<p align="center">
+    <img src="https://e7.pngegg.com/pngimages/610/114/png-clipart-1980s-car-pixel-art-bit-80s-arcade-games-compact-car-blue.png" />
+</p>
+
 ## How to configure
 The application is configured using the following environment variables:
 
